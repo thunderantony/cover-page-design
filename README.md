@@ -127,7 +127,8 @@ Code:
     </body>
 </html>
 Output:
-Alt text
+![image](https://github.com/thunderantony/cover-page-design/assets/149364638/1e62cc63-c6ed-4329-8872-6f272f764dbf)
+
 
 Result:
 Hence cover page for book is made and executed successfully
