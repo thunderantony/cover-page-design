@@ -10,6 +10,7 @@ Step 2:
 Write HTML and CSS code for desigining book cover page and execute them.
 
 Code:
+```
  <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -126,8 +127,10 @@ Code:
         </div>
     </body>
 </html>
+```
 Output:
-![image](https://github.com/thunderantony/cover-page-design/assets/149364638/8c853b23-ae98-45b3-a6a4-f49f5c284892)
+![image](https://github.com/thunderantony/cover-page-design/assets/149364638/8dd90565-7343-464b-8e00-b558cad18dbe)
+
 
 
 
