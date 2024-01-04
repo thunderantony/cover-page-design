@@ -10,7 +10,7 @@ Step 2:
 Write HTML and CSS code for desigining book cover page and execute them.
 
 Code:
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
     <head>
          <meta name="viewport" 
@@ -19,40 +19,40 @@ Code:
 
         .bookpage{
             width: 400px;
-            height: 600px;
-            color:red;
+            height: 700px;
+            background-color: #3d3a3a;
+            color:white;
             margin-left: auto;
             margin-right: auto;
-            padding: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url(./web_wallpaper.jpg);
+            padding: 30px;
+            font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(/static/images/pngtree.jpg);
             background-size: cover;
         }
             
 
-        .insight{
-            color: brown;
+        .toptext{
+            color:white;
 
         }
 
         
-        .hrstyle{
-            width:100px;
+        .tophr{
+            width:140px;
         }
         .author{
-        
+            color: white;
             display: inline;
             position: relative;
-            color: red;
             top:190px;
             
             font-family:Georgia;
             font-size: medium;
         }
         .booktitle{
-            font-family: 'Courier New', Courier, monospace;
-            font-size: larger;
-            text-align: center;
+            font-family: 'Franklin Gothic Heavy', monospace;
+            font-size: 25px;
+            text-align: left;
             position: relative;
             top: 30px;
         
@@ -63,14 +63,14 @@ Code:
             top:180px;
             
         }
-        .pub{
+        .publisher{
             font-size: medium;
             position: relative;
             top:155px;
             left:330px;
         }
-        .ed{
-            color: blue;
+        .edition{
+            color:red;
             font-size: medium;
             font-family: Verdana;
             position:relative;
@@ -78,15 +78,15 @@ Code:
 
         }
         .subtitle{
-            font-family:Tahoma;
+            font-family:T'Franklin Gothic Heavy';
             font-size: large;
             position: relative;
             top:40px;
         }
-        .mypic{
+        .photo{
             position: relative;
-            top: 135px;
-            left: 260px;
+            top: 175px;
+            left: 300px;
             width: 100px;
             height: 100px;
             background-size: cover;
@@ -96,19 +96,19 @@ Code:
     </head>
     <body>
         <div class="bookpage">
-            <div class="insight">
-                SEC INSIGHT
+            <div class="toptext">
+                EXPERT INSIGHT
             </div>
-            <div class="hrstyle">
+            <div class="tophr">
                 <hr style="color: red;">
             </div>
             <div class="booktitle">
-                <h1>Fundamentals of Web Application Development</h1></div>
+                <h1>Responsive Web Design With HTML5 and CSS</h1></div>
             <div class="subtitle">
-                HTML and CSS Combined with Django Architecture
+                Develop future-proof responsive websites using the latest HTML5 and CSS Techniques
             </div>
-            <div class="mypic">
-                <img src="./C:\Users\admin\OneDrive\ドキュメント\antony photo.jpg" width="100" height="140" alt="">
+            <div class="photo">
+                <img src="C:\Users\admin\OneDrive\ドキュメント\antony photo.jpg" width="100" height="110" alt="">
             </div>
             <div class="id">
                 <hr style="color: orange;">
@@ -116,18 +116,19 @@ Code:
             <div class="author">
                <p><b>ANTHONY RAJ.N</b></p>
             </div>
-            <div class="pub">
-                SEC
+            <div class="publisher">
+                PACKT
             </div>
-            <div class="ed">
-                <b>Seventh Edition</b>
+            <div class="edition">
+                <b>First Edition</b>
             </div>
-        
+            
         </div>
     </body>
 </html>
 Output:
-![image](https://github.com/thunderantony/cover-page-design/assets/149364638/1e62cc63-c6ed-4329-8872-6f272f764dbf)
+![image](https://github.com/thunderantony/cover-page-design/assets/149364638/8c853b23-ae98-45b3-a6a4-f49f5c284892)
+
 
 
 Result:
